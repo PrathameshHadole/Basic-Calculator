@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    background-image: url('bgregistration.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.calculator {
+    background-image: url('bgregistration.jpg');
+    border: groove rgb(11, 196, 252);
+    border-radius: 5px;
+    padding: 20px;
+    width: 390px;
+    height: 450px;
+    background-color: #1abbe4;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-screen {
+    width: 90%;
+    height: 80px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.calculator-keys button {
+    height: 60px;
+    width: 60px;
+    font-size: 1.5rem;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    border: groove rgb(11, 196, 252);
+    background-image: url('bgregistration.jpg');
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.calculator-keys button.operator {
+    background-color: orange;
+    border: groove rgb(11, 196, 252);
+    color: #fff;
+}
+
+.calculator-keys button.all-clear {
+    
+    background-color: lightgreen;
+    height: 60px;
+    width: 130px;
+}
+
+.calculator-keys button.equal-sign {
+    background-color: #007aff;
+    color: #fff;
+    height: 60px;
+    width: 130px;
+}
+
+.calculator-keys button:hover {
+    background-color: #d4d4d2;
+}
